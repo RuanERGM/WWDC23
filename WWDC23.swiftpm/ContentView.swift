@@ -23,7 +23,7 @@ struct ContentView : View {
             ZStack(){
                 
                 ZStack{
-                    Image("Background")
+                    Image("background")
                         .resizable()
                     if(x<=2 && tutorial){
                         Image("personagem")
